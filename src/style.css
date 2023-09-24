@@ -1,1 +1,10 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+
+/* Anula el estilo de alineación vertical de Bootstrap */
+.container {
+    margin-top: 0 !important; /* Anula el margen superior de Bootstrap si lo tiene */
+    display: flex !important; /* Anula la propiedad display de Bootstrap si es necesario */
+    flex-direction: column !important; /* Asegura que los elementos se apilen verticalmente */
+    justify-content: center !important; /* Centra verticalmente el contenido */
+    align-items: center !important; /* Centra horizontalmente el contenido */
+}
+
